@@ -1,5 +1,7 @@
 # node-red-azure-webapp
-A webapp wrapper for running node-red in an Azure Web App.
+A webapp wrapper for running node-red in an Azure Web App. It is a fork of [https://github.com/jmservera/node-red-azure-webapp.git].
+Thanks Juan for your hard work. It has given me a very quick start for this project.
+
 To use it just:
 
 1. Deploy to Azure with this button:
@@ -14,7 +16,7 @@ Or...
     ![Web sockets](./_images/websockets.png)
 
     **Figure 1** Activate Web sockets
-1. Configure the deployment options as an *External repository* pointing to [https://github.com/jmservera/node-red-azure-webapp.git](https://github.com/jmservera/node-red-azure-webapp.git)
+1. Configure the deployment options as an *External repository* pointing to [https://github.com/arturzrk/connect-azure-webapp.git](https://github.com/arturzrk/connect-azure-webapp.git)
 
     ![External repo](./_images/externalrepo.png)
 
@@ -36,19 +38,18 @@ You can see the live log in the Azure Portal, in the *Log stream* tab:
 
 **Figure 4** Application logs stream
 
-It comes with some cool nodes preinstalled:
+It comes with Agility Connect dependency  nodes preinstalled:
 
-* Dashboard (create an awesome ui and see it in https://yoursite/ui )
-* Azure IoT Hub
-* Cognitive Services
-* Azure Storage (Blobs & Tables)
-* DocumentDB
+* Mongo DB
+* Base64 Encoding
+* UUID
+* JSON Schema Validation
+* Crypto JS
 * Azure SQL
-* Swagger node
 
-## Securing your deployment
+## Secured deployment
 
-To secure this deployment and add an admin password edit the `settings.js` file.
+To secure this deployment an admin password has been set. Contant you know who to obtain it.
 
 ## Version History
 
@@ -70,4 +71,4 @@ To secure this deployment and add an admin password edit the `settings.js` file.
   * Update cognitive-services 0.5.5
   * Update dashboard 2.21.0
   * Update node-swagger 0.1.9
-  
+  v3.0.0 - Fork to embed Agility flows
