@@ -6,7 +6,7 @@ To use it just:
 
 1. Deploy to Azure with this button:
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjmservera%2Fnode-red-azure-webapp%2Fmaster%2Fwebapp.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Farturzrk%2Fconnect-azure-webapp%2Fconnect-deps%2Fwebapp.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
 
 Or...
 
